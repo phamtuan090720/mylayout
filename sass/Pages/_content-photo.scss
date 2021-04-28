@@ -1,0 +1,27 @@
+.content-photo {
+    .content-left {
+        align-self: center;
+        h3 {
+            font-size: 35px;
+            line-height: 45px;
+            color: $title-color;
+            font-weight: 700;
+        }
+         p {
+            font-size: 16px;
+            line-height: 26px;
+            color: $text-color  ;
+            margin-top: 25px;
+        }
+        .btn-theme2 {
+            padding: 10px 30px;
+            color: #fff;
+            font-size: 16px;
+            text-transform: capitalize;
+            font-weight: 600;
+            transition: 0.3s ease-in;
+            border: 2px solid $opposite-color;
+            background: $opposite-color;
+        }
+    }
+}

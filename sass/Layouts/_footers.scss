@@ -1,0 +1,25 @@
+.footer {
+    padding: 2rem 0px;
+    background: #222222;
+    .main-social-footer {
+        margin-top: 20px;
+        a {
+            margin-right: 10px;
+            color: #ccc;
+            width: 42px;
+            height: 42px;
+            border: solid 1px rgba(255, 255, 255, 0.1);
+            line-height: 42px;
+            display: inline-block;
+            text-align: center;
+            font-size: 18px;
+            border-radius: 50%;
+            transition: 0.3s;
+            &:hover {
+                border: solid 1px $opposite-color;
+                color: $opposite-color;
+                transition: 0.3s;
+            }
+        }
+    }
+}
